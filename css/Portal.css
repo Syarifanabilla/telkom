@@ -1,0 +1,34 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: url('img/Wallpaper.JPG');
+    background-position: center;
+    background-repeat: non-repeat;
+    background-size: cover;
+    display: table;
+    font-family: monserrat;
+}
+
+.nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 80px;
+    border-bottom: 1px solid rgba(255,255,255, 0,5);
+}
+
+.logo{
+    float: left;
+    color: #fff;
+    font-size: 24px;
+    line-height: 80px;
+}
